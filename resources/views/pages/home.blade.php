@@ -8,9 +8,12 @@
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="relative h-[3000px]">
+    <div class="relative">
         {{-- Header --}}
         <header class="h-[162px] fixed top-0 z-30 w-full">
             {{-- Header Top --}}
@@ -581,24 +584,24 @@
         
         {{-- -------------------------------------+++++-------------------------- --}}
         {{-- Content --}}
-        <main class="h-[2000px] top-full">
+        <main class="h-[2000px] top-full mt-[162px]">
             {{-- -------------------------------------+++++-------------------------- --}}
             {{-- Slide section --}}
-            <div class="relative">
+            <section class="relative">
                 <img src="https://sudospaces.com/rootsvn/2022/02/sieuthiroots-1.png" alt="sieuthiroots-1" class="w-full">
                 <button 
                     class="uppercase bg-[#4d835f] -translate-1/2 left-1/2 top-1/2 absolute text-white text-sm w-[220px] h-[45px] rounded-md font-bold cursor-pointer"
                 >
                     Bắt đầu mua sắm
                 </button>
-            </div>
+            </section>
 
             {{-- -------------------------------------+++++-------------------------- --}}
             {{-- Organic section --}}
             <section class="pt-[35px] pb-[25px]">
                 <div class="max-w-[1200px] m-auto px-[15px]">
                     {{-- Organic section tit mb-10le --}}
-                   <div class="">
+                   <div class="mb-10">
                         <p class="text-3xl font-bold text-gray-800 text-center leading-[65px]">
                             Sản phẩm hữu cơ tại Roots
                         </p>
@@ -660,10 +663,10 @@
 
             {{-- -------------------------------------+++++-------------------------- --}}
             {{-- Home banner section --}}
-            <div class="py-30px bg-[url('https://sudospaces.com/rootsvn/2022/02/roots-home-delivery-background.png')] bg-cover bg-center h-64 w-full" >
+            <section class="bg-[url('https://sudospaces.com/rootsvn/2022/02/roots-home-delivery-background.png')] bg-cover bg-center w-full  py-[30px]" >
                 <div class="max-w-[1200px] px-[15px] m-auto flex">
                     {{-- Home banner left --}}
-                    <div class="w-[48%]">
+                    <div class="w-[48%] max-w-[48%] px-[30px]">
                         <img src="https://sudospaces.com/rootsvn/2021/11/picture-edited-2-1-large.png" alt="picture-edited-2-1">
                     </div>
                      {{-- Home banner right --}}
@@ -673,8 +676,8 @@
                             <p class="text-[50px] font-black text-[#594A42]" style="font-family: 'Yanone Kaffeesatz', sans-serif;">Giao nhanh tận nhà</p>
                         </div>
                         <div>
-                            <div class="flex ">
-                                <div class="">
+                            <div class="flex py-[3px]">
+                                <div class="text-[#49ae50] pr-2.5">
                                     <i class="fas fa-check-circle"></i>
                                 </div>
                                 <div class="">
@@ -683,8 +686,8 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="flex ">
-                                 <div class="">
+                            <div class="flex py-[3px]">
+                                 <div class="text-[#49ae50] pr-2.5">
                                     <i class="fas fa-check-circle"></i>
                                 </div>
                                 <div class="">
@@ -693,8 +696,8 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="flex ">
-                                 <div class="">
+                            <div class="flex py-[3px]">
+                                 <div class="text-[#49ae50] pr-2.5">
                                     <i class="fas fa-check-circle"></i>
                                 </div>
                                 <div class="">
@@ -706,8 +709,375 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
+            {{-- -------------------------------------+++++-------------------------- --}}
+            {{-- Ads Section --}}
+            <section class="bg-[url('https://sudospaces.com/rootsvn/2021/11/bg-3.png')] bg-cover bg-center w-full">
+                <div class="max-w-[1200px] px-[15px] m-auto flex">
+                    <div class="py-[55px] w-full">
+                        {{-- Ads title --}}
+                        <div class="mb-[35px] flex justify-center w-full">
+                            <span class="text-[#2A383A] font-bold text-3xl">Sống Xanh Thật Dễ</span>
+                        </div>
+                        
+                        <div class="flex gap-[50px]">
+                            <div class="flex flex-col justify-center items-center text-center">
+                                <img
+                                    class="max-w-[180px]"
+                                    src="https://sudospaces.com/rootsvn/2021/10/home-healthy-living-made-easy-register-1.png" 
+                                    alt="home-healthy-living-made-easy-register-1"
+                                />
+                                <a href="#" class="font-bold text-[#2A383A] text-[22px]">Mua sắm ở bất cứ đâu</a>
+                                <p class="text-sm">Đăng nhập dễ dàng và nhanh chóng, tạo tài khoản cá nhân thuận tiện cho việc đặt hàng</p>
+                            </div>
+                            <div class="flex flex-col justify-center items-center text-center">
+                                <img
+                                    class="max-w-[180px]"
+                                    src="https://sudospaces.com/rootsvn/2021/10/home-healthy-living-made-easy-shop-1.png" 
+                                    alt="home-healthy-living-made-easy-register-1"
+                                />
+                                <a href="#" class="font-bold text-[#2A383A] text-[22px]">Mua sắm ở bất cứ đâu</a>
+                                <p class="text-sm">Đăng nhập dễ dàng và nhanh chóng, tạo tài khoản cá nhân thuận tiện cho việc đặt hàng</p>
+                            </div>
+                            <div class="flex flex-col justify-center items-center text-center">
+                                <img
+                                    class="max-w-[180px]"
+                                    src="https://sudospaces.com/rootsvn/2021/10/home-healthy-living-made-easy-delivery-1.png" 
+                                    alt="home-healthy-living-made-easy-register-1"
+                                />
+                                <a href="#" class="font-bold text-[#2A383A] text-[22px]">Mua sắm ở bất cứ đâu</a>
+                                <p class="text-sm">Đăng nhập dễ dàng và nhanh chóng, tạo tài khoản cá nhân thuận tiện cho việc đặt hàng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- -------------------------------------+++++-------------------------- --}}
+            {{-- Posts Section --}}
+            <section class="pt-10 pb-[65px]">
+                <div class="max-w-[1200px] px-[15px] m-auto flex">
+                    <div class="">
+                        {{-- Posts Section Title --}}
+                        <div class="flex w-full justify-between mb-5">
+                            <div class="">
+                                <span class="font-bold leading-[65px] text-[30px]">Ăn Sạch - Sống Xanh</span>
+                            </div>
+                            <div>
+                                <a class="uppercase text-base font-bold" href="">Xem tất cả</a>
+                            </div>
+                        </div>
+                        {{-- Posts section list --}}
+                        <div class="grid grid-cols-3 gap-0">
+                            <div class="flex flex-col">
+                                <h3><a href="">Hướng dẫn bảo quản rau tươi lâu</a></h3>
+                                <p class="">22 Jul, 2021</p>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus ...</p>
+                                <button class=""><a class="" href="">Xem thêm</a></button>
+                            </div>
+                            <div class="flex flex-col">
+                               <img
+                                    class=""
+                                    src="https://sudospaces.com/rootsvn/2021/07/bitmap-9.png" 
+                                    alt=""
+                                />
+                            </div>
+                            <div class="flex flex-col">
+                                <h3><a href="">Hướng dẫn bảo quản rau tươi lâu</a></h3>
+                                <p class="">22 Jul, 2021</p>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus ...</p>
+                                <button class=""><a class="" href="">Xem thêm</a></button>
+                            </div>
+                            <div class="flex flex-col">
+                                <img
+                                    class=""
+                                    src="https://sudospaces.com/rootsvn/2021/07/bitmap-9.png" 
+                                    alt=""
+                                />
+                            </div>
+                            <div class="flex flex-col">
+                                <h3><a href="">Hướng dẫn bảo quản rau tươi lâu</a></h3>
+                                <p class="">22 Jul, 2021</p>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus ...</p>
+                                <button class=""><a class="" href="">Xem thêm</a></button>
+                            </div>
+                            <div class="flex flex-col">
+                                <img
+                                    class=""
+                                    src="https://sudospaces.com/rootsvn/2021/07/bitmap-9.png" 
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- -------------------------------------+++++-------------------------- --}}
+            {{-- Partners Section --}}
+            <section class="pt-[35px] pb-[35px]">
+                <div class="max-w-[1200px] px-[15px] m-auto flex">
+                    <div>
+                        {{-- Partners section title --}}
+                        <div class="">
+                            <span class="">Các Thương Hiệu Hữu Cơ</span>
+                        </div>
+                        {{-- Partners section list --}}
+                        <div class="grid grid-cols-5 gap-[62px]">
+                            <div class="">
+                                <img 
+                                    src="https://sudospaces.com/rootsvn/2024/11/organic-logo-6-1-medium.png" 
+                                    alt="organic-logo-6-1"
+                                    class=""
+                                >
+                            </div>
+                            <div class="">
+                                <img 
+                                    src="https://sudospaces.com/rootsvn/2024/11/organic-logo-7-medium.png" 
+                                    alt="organic-logo-7"
+                                    class=""
+                                >
+                            </div>
+                            <div class="">
+                                <img 
+                                    src="https://sudospaces.com/rootsvn/2024/12/organic-logo-16-medium.png" 
+                                    alt="organic-logo-16"
+                                    class=""
+                                >
+                            </div>
+                            <div class="">
+                                <img 
+                                    src="https://sudospaces.com/rootsvn/2024/11/organic-logo-2-medium.png" 
+                                    alt="organic-logo-2"
+                                    class=""
+                                >
+                            </div>
+                            <div class="">
+                                <img 
+                                    src="https://sudospaces.com/rootsvn/2024/12/organic-logo-15-medium.png" 
+                                    alt="organic-logo-15"
+                                    class=""
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- -------------------------------------+++++-------------------------- --}}
+            {{-- Testimonial Section --}}
+            <section class="pt-10 pb-[65px]">
+                <div class="max-w-[1200px] px-[15px] m-auto flex">
+                    <div class="w-full">
+                        {{-- Testimonial Section Title --}}
+                        <div class="flex flex-col justify-center text-center">
+                            <span class="">Cảm Nhận Khách Hàng</span>
+                            <p class="">Chia sẻ trải nghiệm mua sắm của bạn bằng cách tag @rootsvn trên Instagram để được xuất hiện trên trang chủ của Roots.</p>
+                        </div>
+                        {{-- Testimonial Section List --}}
+                        <div class="h-[564px] bg-amber-400 w-full"></div>
+                    </div>
+                </div>
+            </section>
         </main>
+        {{-- -------------------------------------+++++-------------------------- --}}
+        {{-- Footer --}}
+        <footer class="mt-[1800px] bg-[#E1EDE5]">
+            <div>
+                {{-- Footer content --}}
+                <div class="max-w-[1200px] px-[15px] m-auto flex">
+                   <div class="w-full">
+                        {{-- Footer content top --}}
+                        <div class="flex py-[25px] bg-[#D0E2D6] w-full items-center">
+                            <div class="w-[36%]">
+                                <div class="flex justify-center items-center">
+                                    <div class="mr-[35px] text-[32px] text-[#4d835f]">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <p class="max-w-[283px] w-[calc(100%-54px)] text-[#2A383A] text-sm leading-6">
+                                        237 - 239 - 241 Đường Nguyễn Công Trứ, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
+                                    </p>
+                                </div>
+                            </div>
+                          
+                            <div class="w-[34%] relative">
+                                <div class="w-[1px] h-10 bg-[#2A383A] absolute top-1/2 -translate-y-1/2 left-0"></div>
+                                <div class="flex justify-center items-center">
+                                    <div class="mr-[35px] text-[32px] text-[#4d835f]">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <p class="text-[#2A383A] text-sm leading-6">082 333 6868</p>
+                                </div>
+                                <div class="w-[1px] h-10 bg-[#2A383A] absolute top-1/2 -translate-y-1/2 right-0"></div>
+                            </div>
+                            <div class="w-[30%]">
+                                <div class="flex justify-center items-center">
+                                    <div class="mr-[35px] text-[32px] text-[#4d835f]">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <p class="text-[#2A383A] text-sm leading-6">shop@roots.vn</p>
+                                </div>
+                            </div>
+                        </div>
+                        {{-- Footer content middle --}}
+                        <div class="flex border-[#4d835f] border-b-[1px] pt-[10px] pb-[35px]">
+                            {{-- Footer content middle detail --}}
+                            <div class="w-[36%] pr-[86px]">
+                                <div class="flex justify-center">
+                                    <img 
+                                        src="https://sudospaces.com/rootsvn/2021/08/root-logo-01.png" 
+                                        alt="logo footer"
+                                        class="h-[100px] max-w-[110px]"
+                                    />
+                                </div>
+                                <div class="">
+                                    <p class="text-[#2A383A] text-sm leading-7">
+                                        Chúng tôi đặt tâm huyết vào những sản phẩm chúng tôi bán, cách chúng tôi trình bày, đóng gói chúng, 
+                                        cách chúng tôi giao hàng đến cho bạn, và cách bạn phản hồi khi trải nghiệm dịch vụ của chúng tôi.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {{-- Footer content middle about --}}
+                            <div class="w-[20%] pt-[23px] pl-10">
+                                <div class="mb-6">
+                                    <span class="text-[#2A383A] font-bold leading-[26px] text-xl">Khám phá</span>
+                                </div>
+                                <div class="">
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Về chúng tôi</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Ăn sạch - Sống xanh</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Thẻ thành viên</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Cửa hàng</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Tuyển dụng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- Footer content middle shop --}}
+                            <div class="w-[20%] pt-[23px] pl-[25px]">
+                                <div class="mb-6">
+                                    <span class="text-[#2A383A] font-bold leading-[26px] text-xl">Cửa hàng</span>
+                                </div>
+                                <div class="">
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Food & Drink</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Health & Wellbeing</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Mother & Baby Care</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Natural Skincare & Beauty</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Organic Lifestyle</a>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- Footer content middle service --}}
+                            <div class="w-[24%] pt-[23px] pl-10">
+                                <div class="mb-6">
+                                    <span class="text-[#2A383A] font-bold leading-[26px] text-xl">Thông tin</span>
+                                </div>
+                                <div class="">
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Chính sách giao hàng</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Chính sách đổi trả</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Gói quà miễn phí</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Câu hỏi thường gặp</a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="hover:underline text-sm text-[#2A383A]">Liên hệ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{-- Footer content bottom --}}
+                        <div class="pt-[25px] pb-[35px]">
+                            <div class="flex items-center">
+                                <div class="w-[36%]">
+                                    <div class="">
+                                        <span class="text-[#2A383A] text-xl leading-9 font-bold">Đăng ký nhận bản tin</span>
+                                    </div>
+                                    <div class="">
+                                        <span class="text-sm leading-7 text-[#2A383A]">ROOTS nói không với rác, dù là môi trường hay hộp thư của bạn</span>
+                                    </div>
+                                </div>
+                                {{-- Footer content bottom email --}}
+                                <div class="w-[35%]">
+                                    <div class="w-full">
+                                        <div class="flex items-center mt-1 h-[45px] w-full">
+                                            <input 
+                                                type="email"
+                                                class="px-[15px] w-[calc(100%-98px)] text-sm text-gray-700 border border-r-0 rounded-r-none border-[#4d835f] focus:outline-none rounded shadow-sm h-full bg-white" 
+                                                placeholder="Email của bạn"
+                                            />
+                                            <button 
+                                                class="h-full px-4 w-[98px] font-bold text-sm uppercase bg-[#4d835f] border border-l-0 border-[#4d835f] rounded-r shadow-sm text-blue-50 hover:text-white hover:cursor-pointer  focus:outline-none"
+                                                type="button"
+                                            >
+                                                Gửi
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{-- Footer content bottom social --}}
+                                <div class="w-[29%]">
+                                   <div class="">
+                                        <div class="flex justify-end mb-[15px]">
+                                            <div class="bg-[#4d835f] rounded-full h-10 w-10 flex items-center justify-center text-xl text-white ml-2.5">
+                                                <i class="fab fa-instagram"></i>
+                                            </div>
+                                            <div class="bg-[#4d835f] rounded-full h-10 w-10 flex items-center justify-center text-xl text-white ml-2.5">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </div>
+                                            <div class="bg-[#4d835f] rounded-full h-10 w-10 flex items-center justify-center text-xl text-white ml-2.5">
+                                                <img src="https://roots.vn/assets/images/icon/icon_zalo.png" alt="zalo" class="w-10 h-10 p-2">
+                                            </div>
+                                            <div class="bg-[#4d835f] rounded-full h-10 w-10 flex items-center justify-center text-xl text-white ml-2.5">
+                                                <i class="fab fa-tiktok"></i>
+                                            </div>
+                                            <div class="bg-[#4d835f] rounded-full h-10 w-10 flex items-center justify-center text-xl text-white ml-2.5">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="">
+                                            <div class="mx-2 mt-[5px] relative outline-2 outline-dotted outline-[rgb(238,10,3)]">
+                                                <img 
+                                                    src="https://roots.vn/assets/images/bo-cong-thuong.png"
+                                                    alt=""
+                                                    class="max-w-[180px] w-[120px]"
+                                                />
+                                                <a href="http://online.gov.vn/Home/WebDetails/90496" class="absolute inset-0"></a>
+                                            </div>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+                {{-- Footer Copyright --}}
+                <div class="py-2.5 bg-[#4d835f]">
+                    <p class="text-white text-center text-sm leading-6">© 2021 ROOTS. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
     </div>
 
     <script>
