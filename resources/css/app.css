@@ -47,6 +47,7 @@
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+    --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
@@ -253,17 +254,38 @@
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
+  .top-\[-4px\] {
+    top: -4px;
+  }
   .top-\[-25\%\] {
     top: -25%;
   }
   .top-\[20px\] {
     top: 20px;
   }
+  .top-\[46px\] {
+    top: 46px;
+  }
   .top-\[71px\] {
     top: 71px;
   }
   .top-\[163px\] {
     top: 163px;
+  }
+  .top-\[316px\] {
+    top: 316px;
+  }
+  .top-\[596px\] {
+    top: 596px;
+  }
+  .top-\[876px\] {
+    top: 876px;
+  }
+  .top-\[1166px\] {
+    top: 1166px;
+  }
+  .top-\[1436px\] {
+    top: 1436px;
   }
   .top-full {
     top: 100%;
@@ -310,6 +332,15 @@
   .left-\[20px\] {
     left: 20px;
   }
+  .left-\[470px\] {
+    left: 470px;
+  }
+  .left-\[475px\] {
+    left: 475px;
+  }
+  .left-\[660px\] {
+    left: 660px;
+  }
   .left-full {
     left: 100%;
   }
@@ -346,9 +377,6 @@
       max-width: 96rem;
     }
   }
-  .m-\[60px\] {
-    margin: 60px;
-  }
   .m-auto {
     margin: auto;
   }
@@ -381,6 +409,9 @@
   }
   .mt-\[5px\] {
     margin-top: 5px;
+  }
+  .mt-\[30px\] {
+    margin-top: 30px;
   }
   .mt-\[60px\] {
     margin-top: 60px;
@@ -423,6 +454,9 @@
   }
   .mb-\[35px\] {
     margin-bottom: 35px;
+  }
+  .mb-\[60px\] {
+    margin-bottom: 60px;
   }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
@@ -538,6 +572,12 @@
   .h-\[100px\] {
     height: 100px;
   }
+  .h-\[146px\] {
+    height: 146px;
+  }
+  .h-\[156px\] {
+    height: 156px;
+  }
   .h-\[162px\] {
     height: 162px;
   }
@@ -640,6 +680,9 @@
   .w-\[35\%\] {
     width: 35%;
   }
+  .w-\[35px\] {
+    width: 35px;
+  }
   .w-\[36\%\] {
     width: 36%;
   }
@@ -675,6 +718,9 @@
   }
   .w-\[292px\] {
     width: 292px;
+  }
+  .w-\[400px\] {
+    width: 400px;
   }
   .w-\[440px\] {
     width: 440px;
@@ -870,8 +916,14 @@
   .gap-\[54px\] {
     gap: 54px;
   }
+  .gap-\[60px\] {
+    gap: 60px;
+  }
   .gap-\[62px\] {
     gap: 62px;
+  }
+  .gap-\[75px\] {
+    gap: 75px;
   }
   .space-y-1 {
     :where(& > :not(:last-child)) {
@@ -1181,6 +1233,9 @@
   .text-center {
     text-align: center;
   }
+  .text-end {
+    text-align: end;
+  }
   .align-baseline {
     vertical-align: baseline;
   }
@@ -1233,6 +1288,9 @@
   .text-\[50px\] {
     font-size: 50px;
   }
+  .text-\[120px\] {
+    font-size: 120px;
+  }
   .leading-5 {
     --tw-leading: calc(var(--spacing) * 5);
     line-height: calc(var(--spacing) * 5);
@@ -1261,9 +1319,17 @@
     --tw-leading: 26px;
     line-height: 26px;
   }
+  .leading-\[30px\] {
+    --tw-leading: 30px;
+    line-height: 30px;
+  }
   .leading-\[65px\] {
     --tw-leading: 65px;
     line-height: 65px;
+  }
+  .leading-\[120px\] {
+    --tw-leading: 120px;
+    line-height: 120px;
   }
   .leading-tight {
     --tw-leading: var(--leading-tight);
@@ -1276,6 +1342,10 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .font-light {
+    --tw-font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-light);
   }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
@@ -1693,7 +1763,7 @@
   }
 }
 body {
-  font-family: 'Arial';
+  font-family: "Be Vietnam Pro";
 }
 @property --tw-translate-x {
   syntax: "*";

@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="relative">
         <header></header>
         <main class="">
             {{-- Banner --}}
-            <div class="max-w-[1600xp] h-[320px] w-full relative ">
+             <div class="max-w-[1600xp] h-[320px] w-full relative ">
                 <img src="{{ asset('/img/bg-about.jpg') }}" alt="" class="w-full h-full">
                 <div class="flex flex-col">
                     <div class="absolute top-[20px] left-[20px]">
@@ -2559,7 +2559,11 @@
                     </svg>
                 </div>
                 {{-- <div class=""> --}}
-                    <img src="{{ asset("/img/Ellipse-508.png") }}" alt="" class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-[calc(50%-200px)]"/>
+                    <img 
+                        src="{{ asset("/img/ellipse-508.jpg") }}" 
+                        alt="" 
+                        class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-[calc(50%-200px)] rounded-full"
+                    />
                     <img src="{{ asset("/img/11.png") }}" alt="" class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10"/>
                     <img src="{{ asset("/img/Ellipse-509.png") }}" alt="" class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-[calc(50%+200px)]"/>
                 {{-- </div> --}}
@@ -2580,12 +2584,12 @@
                         </div>
                         <div class="flex flex-col items-center justify-center w-[292px] h-[90px] gap-[10px]">
                            <div class="flex flex-col items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 31" fill="none">
                                     <path d="M10.3127 27.55C7.81274 26.55 5.62523 24.7375 4.17523 22.225C2.75023 19.7625 2.27523 17.025 2.61273 14.4125M7.31275 6.09995C9.43775 4.43745 12.1002 3.44995 15.0002 3.44995C17.8377 3.44995 20.4503 4.41244 22.5503 6.01244M19.6877 27.55C22.1877 26.55 24.3752 24.7375 25.8252 22.225C27.2502 19.7625 27.7252 17.025 27.3877 14.4125M20.5253 10.4375C23.5753 13.4875 23.5753 18.4374 20.5253 21.4874C17.4753 24.5374 12.5252 24.5374 9.47524 21.4874C6.42524 18.4374 6.42524 13.4875 9.47524 10.4375C12.5252 7.38746 17.4753 7.38746 20.5253 10.4375Z" stroke="#BFBFBF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                             <div class="">
-                                <p class="text-base text-[#3B3B3B] uppercase">Sứ mệnh - giá trị cốt lõi</p>
+                                <p class="text-base text-[#3B3B3B] uppercase">Lịch sử hình thành phát triển</p>
                             </div>
                         </div>
                     </div>
