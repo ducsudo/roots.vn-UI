@@ -16,7 +16,7 @@
     <div class="relative">
         <header></header>
         <main class="">
-            {{-- Banner --}}
+           {{-- Banner --}}
             <div class="max-w-[1600xp] h-[320px] w-full relative ">
                 <img src="{{ asset('/img/bg-about.jpg') }}" alt="" class="w-full h-full">
                 <div class="flex flex-col">
@@ -1421,7 +1421,7 @@
                     </div>
                 </div>
                 <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 max-w-[1200px] flex px-[15px] m-auto items-center w-full">
-                   <div class="">
+                   <div class="hidden lg:block">
                         <div class="">
                             <h1 class="uppercase text-[32px] font-bold text-white">Giới thiệu</h1>
                             <div class="h-[2px] w-[100px] bg-[#E3C161]"></div>
@@ -2728,7 +2728,7 @@
                                 </div>
                                 <div class="flex justify-center">
                                     <img 
-                                        src="{{ asset('/img/h-img1.png') }}" 
+                                        src="{{ asset('/img/h-img6.png') }}" 
                                         alt="Lịch sử hình thành"
                                         class="w-[220px]"
                                     />
@@ -2746,7 +2746,7 @@
                                 </div>
                                 <div class="flex justify-center">
                                     <img 
-                                        src="{{ asset('/img/h-img1.png') }}" 
+                                        src="{{ asset('/img/h-img2.png') }}" 
                                         alt="Lịch sử hình thành"
                                         class="w-[220px]"
                                     />
@@ -2765,7 +2765,7 @@
                                 </div>
                                 <div class="flex justify-center">
                                     <img 
-                                        src="{{ asset('/img/h-img1.png') }}" 
+                                        src="{{ asset('/img/h-img3.png') }}" 
                                         alt="Lịch sử hình thành"
                                         class="w-[220px]"
                                     />
@@ -2783,7 +2783,7 @@
                                 </div>
                                 <div class="flex justify-center">
                                     <img 
-                                        src="{{ asset('/img/h-img1.png') }}" 
+                                        src="{{ asset('/img/h-img4.png') }}" 
                                         alt="Lịch sử hình thành"
                                         class="w-[220px]"
                                     />
@@ -2806,7 +2806,7 @@
                                 </div>
                                 <div class="flex justify-center">
                                     <img 
-                                        src="{{ asset('/img/h-img1.png') }}" 
+                                        src="{{ asset('/img/h-img5.png') }}" 
                                         alt="Lịch sử hình thành"
                                         class="w-[220px]"
                                     />
