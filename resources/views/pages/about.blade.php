@@ -16,17 +16,17 @@
     <div class="relative">
         <header></header>
         <main class="">
-             {{-- Banner --}}
+            {{-- Banner --}}
             <div class="max-w-[1600xp] w-full relative ">
                 <div class="w-full">
                     <img src="{{ asset('/img/img-about.jpg') }}" alt="" class="w-full">
                 </div>
                 {{-- Title page --}}
                 <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 max-w-[1200px] flex px-[15px] m-auto items-center w-full">
-                   <div class="hidden lg:block">
+                   <div class="">
                         <div class="">
-                            <h1 class="uppercase text-[32px] font-bold text-white">Giới thiệu</h1>
-                            <div class="h-[2px] w-[100px] bg-[#E3C161]"></div>
+                            <h1 class="uppercase text-sm sm:text-base lg:text-2xl xl:text-[32px] font-bold text-white">Giới thiệu</h1>
+                            <div class="h-[2px] w-[40px] sm:w-[64px] lg:w-[100px] bg-[#E3C161]"></div>
                         </div>
                    </div>
                 </div>

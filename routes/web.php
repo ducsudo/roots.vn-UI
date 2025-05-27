@@ -33,4 +33,4 @@ Route::get('/about', [AboutController::class, 'index'])
 Route::get('/history', [HistoryController::class, 'index'])
     ->name('history');
 
-// Route::get('/test', [HomeController::class, "test"]);
+Route::get('/test', [HomeController::class, "test"]);

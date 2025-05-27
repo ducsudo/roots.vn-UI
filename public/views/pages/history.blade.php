@@ -16,17 +16,17 @@
     <div class="relative">
         <header></header>
         <main class="">
-            {{-- Banner --}}
+             {{-- Banner --}}
             <div class="max-w-[1600xp] w-full relative ">
                 <div class="w-full">
                     <img src="{{ asset('/img/img-about.jpg') }}" alt="" class="w-full">
                 </div>
                 {{-- Title page --}}
                 <div class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 max-w-[1200px] flex px-[15px] m-auto items-center w-full">
-                   <div class="hidden lg:block">
+                   <div class="">
                         <div class="">
-                            <h1 class="uppercase text-[32px] font-bold text-white">Giới thiệu</h1>
-                            <div class="h-[2px] w-[100px] bg-[#E3C161]"></div>
+                            <h1 class="uppercase text-sm sm:text-base lg:text-2xl xl:text-[32px] font-bold text-white">Giới thiệu</h1>
+                            <div class="h-[2px] w-[40px] sm:w-[64px] lg:w-[100px] bg-[#E3C161]"></div>
                         </div>
                    </div>
                 </div>
@@ -64,7 +64,7 @@
                 <div class="flex flex-col gap-6">
                     <div class="relative">
                         <div class="h-[64px] lg:h-[80px] w-[2px] bg-[#E2AC36] absolute"></div>
-                        <div class="pl-6 flex flex-col gap-4">
+                        <div class="pl-3 lg:pl-6 flex flex-col gap-4">
                             <p class="uppercase text-[#0D0D0D] text-sm lg:text-base font-medium">Lịch sử</p>
                             <p class="uppercase text-[#E2AC36] text-base lg:text-[32px] font-semibold">Hình thành & phát triển</p>
                         </div>
@@ -113,7 +113,7 @@
             <div class="bg-white  mt-[60px]">
                 <div class="max-w-[1200px] m-auto px-[15px] ">
                     {{--  History Journey link --}}
-                    <div class="w-full h-[146px] relative">
+                    <div class="hidden xl:block w-full h-[146px] relative">
                         {{-- History Journey location --}}
                         <div class="absolute top-[-4px] left-[40.6%]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
@@ -159,14 +159,14 @@
                             />
                         </div>
                     </div>
-                    {{--  History Journey Content --}}
-                    <div class="">
+                    {{--  History Journey Content Desktop --}}
+                    <div class="hidden xl:block">
                         <div class="flex flex-col gap-[60px]">
                             {{-- 2008 --}}
                             <div class="flex gap-[75px] justify-center items-center">
                                 <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl text-end font-semibold">Bắt đầu</p>
-                                    <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36]  text-end">2008</p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36] text-end">2008</p>
                                 </div>
                                 <div class="flex justify-center">
                                     <img 
@@ -176,7 +176,7 @@
                                     />
                                 </div>
                                 <div class="flex justify-center items-center w-[34.2%]">
-                                    <p class="text-[#0D0D0D] text-xl leading-[30px] font-light">
+                                    <p class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-light">
                                         Thầy bắt đầu tham gia nghiên cứu phong thủy đầu tiên tại Đảo Quốc Sư Tử - Singapore
                                     </p>
                                 </div>
@@ -184,7 +184,7 @@
                             {{-- 2009 --}}
                             <div class="flex gap-[75px] justify-center items-center">
                                 <div class="flex justify-center items-center w-[34.2%]">
-                                    <p class="text-[#0D0D0D] text-xl leading-[30px] font-light">Thầy trở thành người sáng lập <b class="text-[#0D0D0D] text-xl leading-[30px] font-semibold">
+                                    <p class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-light">Thầy trở thành người sáng lập <b class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-semibold">
                                         Công Ty Cổ Phần Thiết Kế Phong Thủy Phùng Gia</b>
                                         và là đại diện pháp lý duy nhất cho đến thời điểm hiện nay!
                                     </p>
@@ -198,14 +198,14 @@
                                 </div>
                                 <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl font-semibold">Sáng lập</p>
-                                    <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36]">2009</p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36]">2009</p>
                                 </div>
                             </div>
                             {{-- 2010 --}}
                             <div class="flex gap-[75px] justify-center items-center">
                                 <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl text-end font-semibold">Tham gia</p>
-                                    <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36] text-end">2010</p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36] text-end">2010</p>
                                 </div>
                                 <div class="flex justify-center">
                                     <img 
@@ -215,7 +215,7 @@
                                     />
                                 </div>
                                 <div class="flex justify-center items-center w-[34.2%]">
-                                    <p class="text-[#0D0D0D] text-xl leading-[30px] font-light">Thầy tham gia các khóa học tại Bắc Kinh, Trung Quốc.</p>
+                                    <p class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-light">Thầy tham gia các khóa học tại Bắc Kinh, Trung Quốc.</p>
                                 </div>
                             </div>
                             {{-- 2013 --}}
@@ -235,14 +235,14 @@
                                 </div>
                                 <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl font-semibold">Talkshow</p>
-                                    <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36]">2013 </p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36]">2013 </p>
                                 </div>
                             </div>
                             {{-- 2018 --}}
                             <div class="flex gap-[75px] justify-center items-center"> 
                                 <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl text-end font-semibold">Tọa đàm</p>
-                                    <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36] text-end">2018</p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36] text-end">2018</p>
                                 </div>
                                 <div class="flex justify-center">
                                     <img 
@@ -252,8 +252,8 @@
                                     />
                                 </div>
                                 <div class="flex justify-center items-center w-[34.2%]">
-                                    <p class="text-[#0D0D0D] text-xl leading-[30px] font-light">
-                                        <b class="text-[#0D0D0D] text-xl leading-[30px] font-semibold">Master Phùng Phương</b>
+                                    <p class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-light">
+                                        <b class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-semibold">Master Phùng Phương</b>
                                         tham gia liên tiếp nhiều buổi tọa đàm tại
                                         các nước: Thái Lan, Campuchia, Malaysia, Singapore, Nhật Bản, Hàn Quốc, Úc, Mỹ, Canada, Ấn Độ, …
                                     </p>
@@ -281,8 +281,118 @@
                             </div>
                         </div>
                     </div>
+                     {{--  History Journey Content Tablet / mobile --}}
+                    <div class="block xl:hidden">
+                        <div class="flex flex-col gap-[60px]">
+                            {{-- 2008 --}}
+                            <div class="flex gap-[75px]">
+                                <div class="my-auto sm:my-0 sm:flex items-center justify-center w-1/3">
+                                    <img 
+                                        src="{{ asset('/img/h-img1.png') }}" 
+                                        alt="Lịch sử hình thành"
+                                        class="max-w-[220px] w-full"
+                                    />
+                                </div>
+                                <div class="flex flex-col justify-center w-2/3">
+                                    <p class="text-[#3B3B3B] text-2xl font-semibold">Bắt đầu</p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36]">2008</p>
+                                    <p class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-light">
+                                        Thầy bắt đầu tham gia nghiên cứu phong thủy đầu tiên tại Đảo Quốc Sư Tử - Singapore
+                                    </p>
+                                </div>
+                            </div>
+                            {{-- 2009 --}}
+                            <div class="flex gap-[75px]">
+                                <div class="my-auto sm:my-0 sm:flex items-center justify-center w-1/3">
+                                    <img 
+                                        src="{{ asset('/img/h-img6.png') }}" 
+                                        alt="Lịch sử hình thành"
+                                        class="max-w-[220px] w-full"
+                                    />
+                                </div>
+                                <div class="flex flex-col justify-center w-2/3">
+                                     <p class="text-[#3B3B3B] text-2xl font-semibold">Sáng lập</p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36]">2009</p>
+                                    <p class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-light">Thầy trở thành người sáng lập <b class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-semibold">
+                                        Công Ty Cổ Phần Thiết Kế Phong Thủy Phùng Gia</b>
+                                        và là đại diện pháp lý duy nhất cho đến thời điểm hiện nay!
+                                    </p>
+                                </div>
+                            </div>
+                            {{-- 2010 --}}
+                            <div class="flex gap-[75px]">
+                                <div class="my-auto sm:my-0 sm:flex items-center justify-center w-1/3">
+                                    <img 
+                                        src="{{ asset('/img/h-img2.png') }}" 
+                                        alt="Lịch sử hình thành"
+                                        class="max-w-[220px] w-full"
+                                    />
+                                </div>
+                                <div class="flex flex-col justify-center w-2/3">
+                                    <p class="text-[#3B3B3B] text-2xl font-semibold">Tham gia</p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36]">2010</p>
+                                    <p class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-light">Thầy tham gia các khóa học tại Bắc Kinh, Trung Quốc.</p>
+                                </div>
+                            </div>
+                            {{-- 2013 --}}
+                            <div class="flex gap-[75px]">
+                                <div class="my-auto sm:my-0 sm:flex items-center justify-center w-1/3">
+                                    <img 
+                                        src="{{ asset('/img/h-img3.png') }}" 
+                                        alt="Lịch sử hình thành"
+                                        class="max-w-[220px] w-full"
+                                    />
+                                </div>
+                                <div class="flex flex-col justify-center w-2/3">
+                                    <p class="text-[#3B3B3B] text-2xl font-semibold">Talkshow</p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36]">2013 </p>
+                                    <p class="text-[#0D0D0D] text-lg leading-[30px] font-light">
+                                        Thầy trở về nước và bắt đầu có những buổi Talkshow trực tiếp, 
+                                        buổi đào tạo đầu tiên với hơn 2.000 học viên
+                                    </p>
+                                </div>
+                            </div>
+                            {{-- 2018 --}}
+                            <div class="flex gap-[75px]">
+                                <div class="my-auto sm:my-0 sm:flex items-center justify-center w-1/3">
+                                    <img 
+                                        src="{{ asset('/img/h-img4.png') }}" 
+                                        alt="Lịch sử hình thành"
+                                        class="max-w-[220px] w-full"
+                                    />
+                                </div>
+                                <div class="flex flex-col justify-center w-2/3">
+                                   <p class="text-[#3B3B3B] text-2xl font-semibold">Tọa đàm</p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36]">2018</p>
+                                    <p class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-light">
+                                        <b class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-semibold">Master Phùng Phương</b>
+                                        tham gia liên tiếp nhiều buổi tọa đàm tại
+                                        các nước: Thái Lan, Campuchia, Malaysia, Singapore, Nhật Bản, Hàn Quốc, Úc, Mỹ, Canada, Ấn Độ, …
+                                    </p>
+                                </div>
+                            </div>
+                            {{-- 2022 --}}
+                            <div class="flex gap-[75px]">
+                                <div class="my-auto sm:my-0 sm:flex items-center justify-center w-1/3">
+                                    <img 
+                                        src="{{ asset('/img/h-img5.png') }}" 
+                                        alt="Lịch sử hình thành"
+                                        class="max-w-[220px] w-full"
+                                    />
+                                </div>
+                                <div class="flex flex-col justify-center w-2/3">
+                                   <p class="text-[#3B3B3B] text-2xl font-semibold">Bắt đầu</p>
+                                    <p class="lg:text-[64px] lg:leading:[64px] xl:text-[120px] xl:leading-[120px] font-semibold text-[#E2AC36]">2022</p>
+                                    <p class="text-[#0D0D0D] text-base lg:text-xl lg:leading-[30px] font-light">
+                                        Hiện thầy đang là Chủ Tịch của Công Ty Cổ Phần Phong Thủy Phùng Gia. 
+                                        Website của công ty là :
+                                        <b class="text-[#E2AC36] text-base lg:text-xl lg:leading-[30px] font-semibold">phongthuyphunggia.com</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
             </div>
 
             {{-- Share --}}
