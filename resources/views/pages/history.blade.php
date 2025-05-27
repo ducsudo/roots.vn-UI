@@ -63,13 +63,13 @@
             <div class="max-w-[1200px] m-auto px-[15px]">
                 <div class="flex flex-col gap-6">
                     <div class="relative">
-                        <div class="h-[80px] w-[2px] bg-[#E2AC36] absolute"></div>
+                        <div class="h-[64px] lg:h-[80px] w-[2px] bg-[#E2AC36] absolute"></div>
                         <div class="pl-6 flex flex-col gap-4">
-                            <p class="uppercase text-[#0D0D0D] text-base font-medium">Lịch sử</p>
-                            <p class="uppercase text-[#E2AC36] text-[32px] font-semibold">Hình thành & phát triển</p>
+                            <p class="uppercase text-[#0D0D0D] text-sm lg:text-base font-medium">Lịch sử</p>
+                            <p class="uppercase text-[#E2AC36] text-base lg:text-[32px] font-semibold">Hình thành & phát triển</p>
                         </div>
                     </div>
-                    <ul class="px-5 gap-5 flex flex-col">
+                    <ul class="px-5 gap-5 flex flex-col lg:text-base text-sm">
                         <li>
                             <b class="text-[#E2AC36] font-bold text-base leading-6">MASTER PHÙNG PHƯƠNG</b> đang là một trong những người đi đầu trong việc áp dụng các sản phẩm công nghệ 4.0 
                             kết hợp với phong thủy và đã có những kết quả bước đầu thành công, vô cùng hiệu quả đối với những khách hàng tìm đến thầy.
@@ -100,7 +100,7 @@
                             giữa các thuật số cao cấp <b class="text-[#E2AC36] font-bold text-base leading-6">(như Huyền Không Đại Quái, Huyền Không Phi Tinh, Kỳ Môn Độn Giáp…)</b> để đem lại 
                             vượng khí cho gia chủ người được áp dụng.
                         </li>
-                        <li class="text-[#E2AC36] text-[32px] font-semibold text-center">
+                        <li class="text-[#E2AC36] text-base lg:text-[32px] font-semibold text-center">
                             <p class="">HÀNH TRÌNH 10 NĂM</p>
                             <p>& NHỮNG CỘT MỐC QUAN TRỌNG</p>
                         </li>

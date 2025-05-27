@@ -560,6 +560,9 @@
   .h-\[60px\] {
     height: 60px;
   }
+  .h-\[64px\] {
+    height: 64px;
+  }
   .h-\[80px\] {
     height: 80px;
   }
@@ -1751,6 +1754,11 @@
   .lg\:hidden {
     @media (width >= 64rem) {
       display: none;
+    }
+  }
+  .lg\:h-\[80px\] {
+    @media (width >= 64rem) {
+      height: 80px;
     }
   }
   .lg\:h-\[90px\] {
