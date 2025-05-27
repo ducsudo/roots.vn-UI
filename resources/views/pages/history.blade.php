@@ -71,7 +71,7 @@
                     </div>
                     <ul class="px-5 gap-5 flex flex-col lg:text-base text-sm">
                         <li>
-                            <b class="text-[#E2AC36] font-bold text-base leading-6">MASTER PHÙNG PHƯƠNG</b> đang là một trong những người đi đầu trong việc áp dụng các sản phẩm công nghệ 4.0 
+                            <b class="text-[#E2AC36] font-bold text-base leading-6">MASTER PHÙNG PHƯƠNG</b>đang là một trong những người đi đầu trong việc áp dụng các sản phẩm công nghệ 4.0 
                             kết hợp với phong thủy và đã có những kết quả bước đầu thành công, vô cùng hiệu quả đối với những khách hàng tìm đến thầy.
                         </li>
                         <li>
@@ -90,8 +90,8 @@
                             thế hệ thầy Phong Thủy Địa Lý tại Việt Nam từ trước đến nay.
                         </li>
                         <li>
-                            Đặc biệt, theo tôn chỉ của <b class="text-[#E2AC36] font-bold text-base leading-6">Master Phùng Phương</b> đối với bộ môn Phong Thủy khi áp dụng vào 
-                            đời sống luôn dựa trên <b class="text-[#E2AC36] font-bold text-base leading-6">Gieo Chính Đạo- Đắc Tâm An</b> và đối với mọi người- dù theo bất kể 
+                            Đặc biệt, theo tôn chỉ của<b class="text-[#E2AC36] font-bold text-base leading-6">Master Phùng Phương</b>đối với bộ môn Phong Thủy khi áp dụng vào 
+                            đời sống luôn dựa trên<b class="text-[#E2AC36] font-bold text-base leading-6">Gieo Chính Đạo- Đắc Tâm An</b>và đối với mọi người- dù theo bất kể 
                             tôn giáo nào đều sẽ đạt được lợi ích tích cực khi đi theo con đường của Phong Thủy chính phái.
                         </li>
                         <li>
@@ -110,49 +110,49 @@
            </div>
            
            {{--  History Journey --}}
-            <div class="bg-white  mt-[60px]">
+            <div class="mt-[60px]">
                 <div class="max-w-[1200px] m-auto px-[15px] ">
                     {{--  History Journey link --}}
-                    <div class="hidden xl:block w-full h-[146px] relative">
+                    <div class="hidden sm:block md:block w-full h-[146px] relative">
                         {{-- History Journey location --}}
-                        <div class="absolute top-[-4px] left-[40.6%]">
+                        <div class="absolute sm:left-[20px] sm:top-[-4px] md:left-[26px] z-[-10] md:top-[-4px] lg:left-[60px]  xl:left-[40.6%]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
                                 <path d="M25.0002 27.979C28.5901 27.979 31.5002 25.0689 31.5002 21.479C31.5002 17.8892 28.5901 14.979 25.0002 14.979C21.4104 14.979 18.5002 17.8892 18.5002 21.479C18.5002 25.0689 21.4104 27.979 25.0002 27.979Z" stroke="#E3C161" stroke-width="1.5"/>
                                 <path d="M7.54187 17.6873C11.646 -0.354324 38.3752 -0.333491 42.4585 17.7082C44.8544 28.2915 38.271 37.2498 32.5002 42.7915C28.3127 46.8332 21.6877 46.8332 17.4794 42.7915C11.7294 37.2498 5.14604 28.2707 7.54187 17.6873Z" stroke="#E3C161" stroke-width="1.5"/>
                             </svg>
                         </div>
                         {{-- History Journey arrow --}}
-                        <div class="absolute top-[46px] left-[40%]">
+                        <div class="absolute sm:left-[20px] sm:top-[46px] md:left-[26px] z-[-10] md:top-[46px] lg:left-[60px]  xl:left-[40%]">
                             <img src="{{ asset('/img/left_arrow-1.png') }}" 
                                 alt=""
                                 class="w-[35px] h-[8.27%]"
                             />
                         </div>
-                        <div class="absolute top-[316px] left-[56.4%]">
+                        <div class="absolute sm:left-[120px] sm:top-[280px] md:left-[180px] z-[-10] md:top-[316px] lg:left-[230px] xl:left-[56.4%]">
                             <img src="{{ asset('/img/right_arrow.png') }}" 
                                 alt=""
                                 class="w-[35px] h-[8.27%]"
                             />
                         </div>
-                        <div class="absolute top-[596px] left-[40%]">
+                        <div class="absolute sm:left-[20px] sm:top-[524px] md:left-[26px] z-[-10] md:top-[596px] lg:left-[60px] xl:left-[40%]">
                             <img src="{{ asset('/img/left_arrow-1.png') }}" 
                                 alt=""
                                 class="w-[35px] h-[8.27%]"
                             />
                         </div>
-                        <div class="absolute top-[876px] left-[56.4%]">
+                        <div class="absolute sm:left-[120px] sm:top-[750px] md:left-[180px] z-[-10] md:top-[876px] lg:left-[230px] xl:left-[56.4%]">
                             <img src="{{ asset('/img/right_arrow.png') }}" 
                                 alt=""
                                 class="w-[35px] h-[8.27%]"
                             />
                         </div>
-                        <div class="absolute top-[1166px] left-[40%]">
+                        <div class="absolute sm:left-[20px] sm:top-[1020px] md:left-[26px] z-[-10] md:top-[1166px] lg:left-[60px] xl:left-[40%]">
                             <img src="{{ asset('/img/left_arrow-1.png') }}" 
                                 alt=""
                                 class="w-[35px] h-[8.27%]"
                             />
                         </div>
-                        <div class="absolute top-[1436px] left-[56.4%]">
+                        <div class="absolute sm:left-[120px] sm:top-[1260px] md:left-[180px] z-[-10] md:top-[1436px] lg:left-[230px] xl:left-[56.4%]">
                             <img src="{{ asset('/img/right_arrow.png') }}" 
                                 alt=""
                                 class="w-[35px] h-[8.27%]"
