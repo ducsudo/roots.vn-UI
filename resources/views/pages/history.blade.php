@@ -115,47 +115,47 @@
                     {{--  History Journey link --}}
                     <div class="w-full h-[146px] relative">
                         {{-- History Journey location --}}
-                        <div class="absolute top-[-4px] left-[475px]">
+                        <div class="absolute top-[-4px] left-[40.6%]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
                                 <path d="M25.0002 27.979C28.5901 27.979 31.5002 25.0689 31.5002 21.479C31.5002 17.8892 28.5901 14.979 25.0002 14.979C21.4104 14.979 18.5002 17.8892 18.5002 21.479C18.5002 25.0689 21.4104 27.979 25.0002 27.979Z" stroke="#E3C161" stroke-width="1.5"/>
                                 <path d="M7.54187 17.6873C11.646 -0.354324 38.3752 -0.333491 42.4585 17.7082C44.8544 28.2915 38.271 37.2498 32.5002 42.7915C28.3127 46.8332 21.6877 46.8332 17.4794 42.7915C11.7294 37.2498 5.14604 28.2707 7.54187 17.6873Z" stroke="#E3C161" stroke-width="1.5"/>
                             </svg>
                         </div>
                         {{-- History Journey arrow --}}
-                        <div class="absolute top-[46px] left-[470px]">
+                        <div class="absolute top-[46px] left-[40%]">
                             <img src="{{ asset('/img/left_arrow-1.png') }}" 
                                 alt=""
-                                class="w-[35px] h-[156px]"
+                                class="w-[35px] h-[8.27%]"
                             />
                         </div>
-                        <div class="absolute top-[316px] left-[660px]">
+                        <div class="absolute top-[316px] left-[56.4%]">
                             <img src="{{ asset('/img/right_arrow.png') }}" 
                                 alt=""
-                                class="w-[35px] h-[156px]"
+                                class="w-[35px] h-[8.27%]"
                             />
                         </div>
-                        <div class="absolute top-[596px] left-[470px]">
+                        <div class="absolute top-[596px] left-[40%]">
                             <img src="{{ asset('/img/left_arrow-1.png') }}" 
                                 alt=""
-                                class="w-[35px] h-[156px]"
+                                class="w-[35px] h-[8.27%]"
                             />
                         </div>
-                        <div class="absolute top-[876px] left-[660px]">
+                        <div class="absolute top-[876px] left-[56.4%]">
                             <img src="{{ asset('/img/right_arrow.png') }}" 
                                 alt=""
-                                class="w-[35px] h-[156px]"
+                                class="w-[35px] h-[8.27%]"
                             />
                         </div>
-                        <div class="absolute top-[1166px] left-[470px]">
+                        <div class="absolute top-[1166px] left-[40%]">
                             <img src="{{ asset('/img/left_arrow-1.png') }}" 
                                 alt=""
-                                class="w-[35px] h-[156px]"
+                                class="w-[35px] h-[8.27%]"
                             />
                         </div>
-                        <div class="absolute top-[1436px] left-[660px]">
+                        <div class="absolute top-[1436px] left-[56.4%]">
                             <img src="{{ asset('/img/right_arrow.png') }}" 
                                 alt=""
-                                class="w-[35px] h-[156px]"
+                                class="w-[35px] h-[8.27%]"
                             />
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                         <div class="flex flex-col gap-[60px]">
                             {{-- 2008 --}}
                             <div class="flex gap-[75px] justify-center items-center">
-                                <div class="w-[400px]">
+                                <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl text-end font-semibold">Bắt đầu</p>
                                     <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36]  text-end">2008</p>
                                 </div>
@@ -175,7 +175,7 @@
                                         class="w-[220px]"
                                     />
                                 </div>
-                                <div class="flex justify-center items-center w-[400px]">
+                                <div class="flex justify-center items-center w-[34.2%]">
                                     <p class="text-[#0D0D0D] text-xl leading-[30px] font-light">
                                         Thầy bắt đầu tham gia nghiên cứu phong thủy đầu tiên tại Đảo Quốc Sư Tử - Singapore
                                     </p>
@@ -183,7 +183,7 @@
                             </div>
                             {{-- 2009 --}}
                             <div class="flex gap-[75px] justify-center items-center">
-                                <div class="flex justify-center items-center w-[400px]">
+                                <div class="flex justify-center items-center w-[34.2%]">
                                     <p class="text-[#0D0D0D] text-xl leading-[30px] font-light">Thầy trở thành người sáng lập <b class="text-[#0D0D0D] text-xl leading-[30px] font-semibold">
                                         Công Ty Cổ Phần Thiết Kế Phong Thủy Phùng Gia</b>
                                         và là đại diện pháp lý duy nhất cho đến thời điểm hiện nay!
@@ -196,14 +196,14 @@
                                         class="w-[220px]"
                                     />
                                 </div>
-                                <div class="w-[400px]">
+                                <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl font-semibold">Sáng lập</p>
                                     <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36]">2009</p>
                                 </div>
                             </div>
                             {{-- 2010 --}}
                             <div class="flex gap-[75px] justify-center items-center">
-                                <div class="w-[400px]">
+                                <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl text-end font-semibold">Tham gia</p>
                                     <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36] text-end">2010</p>
                                 </div>
@@ -214,13 +214,13 @@
                                         class="w-[220px]"
                                     />
                                 </div>
-                                <div class="flex justify-center items-center w-[400px]">
+                                <div class="flex justify-center items-center w-[34.2%]">
                                     <p class="text-[#0D0D0D] text-xl leading-[30px] font-light">Thầy tham gia các khóa học tại Bắc Kinh, Trung Quốc.</p>
                                 </div>
                             </div>
                             {{-- 2013 --}}
                             <div class="flex gap-[75px] justify-center items-center">
-                                <div class="flex justify-center items-center w-[400px]">
+                                <div class="flex justify-center items-center w-[34.2%]">
                                     <p class="text-[#0D0D0D] text-lg leading-[30px] font-light">
                                         Thầy trở về nước và bắt đầu có những buổi Talkshow trực tiếp, 
                                         buổi đào tạo đầu tiên với hơn 2.000 học viên
@@ -233,14 +233,14 @@
                                         class="w-[220px]"
                                     />
                                 </div>
-                                <div class="w-[400px]">
+                                <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl font-semibold">Talkshow</p>
                                     <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36]">2013 </p>
                                 </div>
                             </div>
                             {{-- 2018 --}}
                             <div class="flex gap-[75px] justify-center items-center"> 
-                                <div class="w-[400px]">
+                                <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl text-end font-semibold">Tọa đàm</p>
                                     <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36] text-end">2018</p>
                                 </div>
@@ -251,7 +251,7 @@
                                         class="w-[220px]"
                                     />
                                 </div>
-                                <div class="flex justify-center items-center w-[400px]">
+                                <div class="flex justify-center items-center w-[34.2%]">
                                     <p class="text-[#0D0D0D] text-xl leading-[30px] font-light">
                                         <b class="text-[#0D0D0D] text-xl leading-[30px] font-semibold">Master Phùng Phương</b>
                                         tham gia liên tiếp nhiều buổi tọa đàm tại
@@ -261,7 +261,7 @@
                             </div>
                             {{-- 2022 --}}
                             <div class="flex gap-[75px] justify-center items-center">
-                                <div class="flex justify-center items-center w-[400px]">
+                                <div class="flex justify-center items-center w-[34.2%]">
                                     <p class="text-[#0D0D0D] text-xl leading-[30px]">Hiện thầy đang là Chủ Tịch của Công Ty Cổ Phần Phong Thủy Phùng Gia. 
                                         Website của công ty là : 
                                         <b class="text-[#E2AC36] text-xl leading-[30px] font-light">phongthuyphunggia.com</b>
@@ -274,9 +274,9 @@
                                         class="w-[220px]"
                                     />
                                 </div>
-                                 <div class="w-[400px]">
+                                 <div class="w-[34.2%]">
                                     <p class="text-[#3B3B3B] text-2xl font-semibold">Bắt đầu</p>
-                                    <p class="text-[120px] leading-[120px] font-semibold text-[#E2AC36]">2022</p>
+                                    <p class="lg:text-[120px] lg:leading-[120px] font-semibold text-[#E2AC36]">2022</p>
                                 </div>
                             </div>
                         </div>
