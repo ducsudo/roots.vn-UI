@@ -64,7 +64,7 @@
                     <div class="flex flex-col-reverse lg:grid lg:grid-cols-2 lg:gap-[54px]">
                         <div class="flex flex-col gap-6">
                             <div class="relative">
-                                <div class="h-[80px] w-[2px] bg-[#E2AC36] absolute"></div>
+                                <div class="h-[64px] lg:h-[80px] w-[2px] bg-[#E2AC36] absolute"></div>
                                 <div class="pl-6 flex flex-col gap-4">
                                     <p class="text-sm uppercase text-[#0D0D0D] lg:text-base font-medium">Sứ mệnh</p>
                                     <p class="uppercase text-[#E2AC36] text-base lg:text-[32px] font-semibold">Tôn chỉ hoạt động</p>
@@ -123,7 +123,7 @@
                         <div class="flex flex-col gap-[36px]">
                             <div class="flex flex-col gap-6">
                                 <div class="relative">
-                                    <div class="h-[80px] w-[2px] bg-[#E2AC36] absolute"></div>
+                                    <div class="h-[64px] lg:h-[80px] w-[2px] bg-[#E2AC36] absolute"></div>
                                     <div class="pl-6 flex flex-col gap-4">
                                         <p class="uppercase text-[#0D0D0D] lg:text-base text-sm font-medium">PHONG THỦY PHÙNG GIA</p>
                                         <p class="uppercase text-[#E2AC36] lg:text-[32px] text-base font-semibold">Giá trị cốt lõi</p>
