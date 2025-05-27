@@ -70,7 +70,10 @@
                                     <p class="uppercase text-[#E2AC36] text-base lg:text-[32px] font-semibold">Tôn chỉ hoạt động</p>
                                 </div>
                             </div>
-                            <ul class="list-disc text-red-500 px-5 gap-5 flex flex-col text-sm lg:text-base">
+                            <ul class="list-disc text-red-500 px-5 gap-5 flex flex-col text-sm lg:text-base bg-[url('{{ asset("/img/path-2164.jpg") }}')] bg-size-[50%] bg-center bg-no-repeat">
+                                {{-- <div class="absolute z-[-10]">
+                                    <img src="{{ asset("/img/path-2164.jpg") }}" alt=""/>
+                                </div> --}}
                                 <li>
                                     <p class="text-black">
                                         <b class="text-[#E2AC36]">Phong Thủy Phùng Gia</b> với sứ mệnh trao đến cho cộng đồng những kiến thức giá trị, hơn hết với những định hướng rõ ràng 
@@ -120,7 +123,7 @@
                         <div class="flex justify-center items-center mb-6">
                             <img src="{{ asset('/img/Frame-12083.png') }}" alt="">
                         </div>
-                        <div class="flex flex-col gap-[36px]">
+                        <div class="flex flex-col gap-[36px] bg-[url('{{ asset("/img/path-2164.jpg") }}')] bg-size-[50%] bg-center bg-no-repeat">
                             <div class="flex flex-col gap-6">
                                 <div class="relative">
                                     <div class="h-[64px] lg:h-[80px] w-[2px] bg-[#E2AC36] absolute"></div>
@@ -129,7 +132,7 @@
                                         <p class="uppercase text-[#E2AC36] lg:text-[32px] text-base font-semibold">Giá trị cốt lõi</p>
                                     </div>
                                 </div>
-                                <ul class="px-5 gap-5 flex flex-col text-sm lg:text-base">
+                                <ul class="px-5 gap-5 flex flex-col text-sm lg:text-base ">
                                     <li>
                                        "Phong thủy dựa trên khoa học để giúp mọi người hiểu rõ bản thân muốn gì và 
                                        lựa chọn điều tốt nhất. Đây là nền tảng quan trọng để công ty xây dựng và phát triển lâu dài”.
