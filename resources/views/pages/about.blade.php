@@ -84,10 +84,7 @@
                                         <p class="uppercase text-[#E2AC36] text-base lg:text-[32px] font-semibold">Tôn chỉ hoạt động</p>
                                     </div>
                                 </div>
-                                <ul class="list-disc text-red-500 px-5 gap-5 flex flex-col text-sm lg:text-base bg-[url('{{ asset("/img/path-2164.jpg") }}')] bg-size-[50%] bg-center bg-no-repeat">
-                                    {{-- <div class="absolute z-[-10]">
-                                        <img src="{{ asset("/img/path-2164.jpg") }}" alt=""/>
-                                    </div> --}}
+                                <ul class="list-disc text-red-500 px-3 md:px-5 gap-5 flex flex-col text-sm lg:text-base bg-[url('{{ asset("/img/path-2164.jpg") }}')] bg-size-[50%] bg-center bg-no-repeat">
                                     <li>
                                         <p class="text-black">
                                             <b class="text-[#E2AC36]">Phong Thủy Phùng Gia</b> với sứ mệnh trao đến cho cộng đồng những kiến thức giá trị, hơn hết với những định hướng rõ ràng 
@@ -124,8 +121,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="flex justify-center items-center mb-6">
-                                <img src="{{ asset('/img/Frame-12081.png') }}" alt="">
+                            <div class="flex justify-center items-center m-auto md:m-0 mb-6 lg:mb-0 w-1/2 md:w-full">
+                                <img class="m-auto" src="{{ asset('/img/Frame-12081.png') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -134,8 +131,8 @@
                 <div class="bg-white  mt-[60px]">
                     <div class="max-w-[1200px] m-auto px-[15px]">
                         <div class="lg:grid lg:grid-cols-2 lg:gap-[54px]">
-                            <div class="flex justify-center items-center mb-6">
-                                <img src="{{ asset('/img/Frame-12083.png') }}" alt="">
+                            <div class="flex justify-center items-center m-auto md:m-0 mb-6 lg:mb-0 w-1/2 md:w-full">
+                                <img class="m-auto" src="{{ asset('/img/Frame-12083.png') }}" alt="">
                             </div>
                             <div class="flex flex-col gap-[36px] bg-[url('{{ asset("/img/path-2164.jpg") }}')] bg-size-[50%] bg-center bg-no-repeat">
                                 <div class="flex flex-col gap-6">

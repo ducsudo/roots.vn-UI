@@ -16,7 +16,7 @@
     <div class="relative">
         <header></header>
         <main class="">
-             {{-- Banner --}}
+            {{-- Banner --}}
             <div class="max-w-[1600xp] w-full relative ">
                 <div class="w-full">
                     <img src="{{ asset('/img/img-about.jpg') }}" alt="" class="w-full">
