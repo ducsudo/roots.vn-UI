@@ -2,3 +2,12 @@
 body {
     font-family: "Be Vietnam Pro";
 }
+
+@theme {
+  --breakpoint-size810: 810px;
+  --breakpoint-size480: 480px;
+  --breakpoint-size430: 430px;
+  --breakpoint-size428: 428px;
+  --breakpoint-size412: 412px;
+  --breakpoint-size390: 390px;
+}
