@@ -728,7 +728,7 @@
                                     src="https://sudospaces.com/rootsvn/2021/10/home-healthy-living-made-easy-register-1.png" 
                                     alt="home-healthy-living-made-easy-register-1"
                                 />
-                                <a href="#" class="font-bold text-[#2A383A] text-[22px]">Mua sắm ở bất cứ đâu</a>
+                                <a href="#" class="font-bold text-[#2A383A] text-[22px]">Đăng ký trở thành thành viên</a>
                                 <p class="text-sm">Đăng nhập dễ dàng và nhanh chóng, tạo tài khoản cá nhân thuận tiện cho việc đặt hàng</p>
                             </div>
                             <div class="flex flex-col justify-center items-center text-center">
@@ -738,7 +738,7 @@
                                     alt="home-healthy-living-made-easy-register-1"
                                 />
                                 <a href="#" class="font-bold text-[#2A383A] text-[22px]">Mua sắm ở bất cứ đâu</a>
-                                <p class="text-sm">Đăng nhập dễ dàng và nhanh chóng, tạo tài khoản cá nhân thuận tiện cho việc đặt hàng</p>
+                                <p class="text-sm">Lựa chọn các sản phẩm thiết yếu từ hàng trăm mặt hàng hữu cơ, an toàn cho cả gia đình</p>
                             </div>
                             <div class="flex flex-col justify-center items-center text-center">
                                 <img
@@ -746,8 +746,8 @@
                                     src="https://sudospaces.com/rootsvn/2021/10/home-healthy-living-made-easy-delivery-1.png" 
                                     alt="home-healthy-living-made-easy-register-1"
                                 />
-                                <a href="#" class="font-bold text-[#2A383A] text-[22px]">Mua sắm ở bất cứ đâu</a>
-                                <p class="text-sm">Đăng nhập dễ dàng và nhanh chóng, tạo tài khoản cá nhân thuận tiện cho việc đặt hàng</p>
+                                <a href="#" class="font-bold text-[#2A383A] text-[22px]">ROOTS sẽ chu toàn mọi việc</a>
+                                <p class="text-sm">ROOTS giao hàng định kỳ đến tận nơi nhưng vẫn linh động theo thời gian biểu của bạn</p>
                             </div>
                         </div>
                     </div>
@@ -764,14 +764,14 @@
                                 <span class="font-bold leading-[65px] text-[30px]">Ăn Sạch - Sống Xanh</span>
                             </div>
                             <div>
-                                <a class="uppercase text-base font-bold" href="">Xem tất cả</a>
+                                <a class="uppercase text-base font-bold text-[#4d835f]" href="">Xem tất cả</a>
                             </div>
                         </div>
                         {{-- Posts section list --}}
                         <div class="grid grid-cols-3 gap-0">
-                            <div class="flex flex-col">
-                                <h3><a href="">Hướng dẫn bảo quản rau tươi lâu</a></h3>
-                                <p class="">22 Jul, 2021</p>
+                            <div class="flex flex-col p-[30px] bg-[#F5F5F5]">
+                                <div class="min-h-[56px] mb-[12px]"><h3 class="text-[18px] font-bold"><a href="">Hướng dẫn bảo quản rau tươi lâu</a></h3></div>
+                                <p class="text-[#4d835f]">22 Jul, 2021</p>
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus ...</p>
                                 <button class=""><a class="" href="">Xem thêm</a></button>
                             </div>
