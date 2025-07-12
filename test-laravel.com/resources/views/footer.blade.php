@@ -1,0 +1,1 @@
+<div id= "bản quyền text-right" >© Bản quyền 2017 Saquib Rizwan </div>   

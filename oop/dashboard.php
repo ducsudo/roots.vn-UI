@@ -1,0 +1,61 @@
+<?php
+    $this->app['events']->listen(RouteMatched::class, function () {
+        new DashboardMenu();
+    })
+====={
+    "id":"package_project","
+    priority":2,
+    "parent_id":"",
+    "name":"Project::project.name",
+    "icon":"bx bx-detail",
+    "type":"multiple",
+    "role":[],
+    "route":"",
+    "childs":[
+        {
+            "id":"package_project_index",
+            "priority":0,
+            "parent_id":"package_project",
+            "name":"Project::project.list_project",
+            "icon":null,
+            "type":"",
+            "role":"projects_index",
+            "route":"admin.projects.index",
+            "childs":[],
+            "permissions":["projects_index"],
+            "active":["admin.projects.edit"],
+            "description":null
+        },{
+            "id":"package_project_create",
+            "priority":1,
+            "parent_id":"package_project",
+            "name":"Project::project.create_project",
+            "icon":null,
+            "type":"",
+            "role":"projects_create",
+            "route":"admin.projects.create",
+            "childs":[],
+            "permissions":["projects_create"],
+            "active":[],"description":null
+        },{
+            "id":"package_project_categories_index",
+            "priority":2,
+            "parent_id":"package_project",
+            "name":"Core::admin.general.category",
+            "icon":null,"type":"","role":"project_categories_index","route":"admin.project_categories.index","childs":[],"permissions":[
+                "project_categories_index"
+            ],
+            "active":[
+                "admin.project_categories.create",
+                "admin.project_categories.edit"
+            ],
+            "description":null
+        }
+    ],
+    "permissions":[
+        "projects_index","projects_create","project_categories_index"
+    ],
+    "active":[],
+    "description":null
+}
+?>
